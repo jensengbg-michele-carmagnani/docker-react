@@ -7,5 +7,5 @@ COPY package.json .
 RUN npm install 
 
 COPY . ./usr/app 
-s
-CMD ["npm", "start"]
+
+CMD ["npm", "run","start"]
