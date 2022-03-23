@@ -10,7 +10,6 @@ script:
   - docker run -e CI=true karma80/docker-react npm test 
 
 deploy: 
-  edge: true
   provider: elasticbeanstalk
   region: "eu-north-1"
   app: "docker-react"
